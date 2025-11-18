@@ -36,7 +36,7 @@ console.log(getProperty(user, "age"));       // OK
 console.log(getProperty(user, "isActive"));  // OK
 // console.log(getProperty(user, "height")); // Error: not a key of User
 
-⭐ কেন প্রয়োজন?
+ কেন প্রয়োজন?
 
 ভুল key-নাম দিলে TypeScript error দেখায়
 
