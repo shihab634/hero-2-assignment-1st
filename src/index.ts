@@ -1,5 +1,5 @@
 
-// 8
+
 type Product = {
   name: string;
   price: number;
@@ -21,7 +21,7 @@ function calculateTotalPrice(products: Product[]): number {
 }
 
 
-// 7
+
 function getUniqueValues(
   arr1: (string | number)[],
   arr2: (string | number)[]
@@ -51,7 +51,7 @@ function getUniqueValues(
  
 }
 
-// 6
+
 
 interface Book {
   title: string;
@@ -68,7 +68,7 @@ function printBookDetails(book: Book): void {
 }
 
 
-// 5
+
 type User = {
   id: number;
   name: string;
@@ -89,7 +89,7 @@ function filterActiveUsers(users: User[]): User[] {
 }
 
 
-// 4
+
 
 type Item = {
   title: string;
@@ -110,7 +110,7 @@ function filterByRating(items: Item[]): Item[] {
 }
 
 
-// 3
+
 
 class Person {
   name: string;
@@ -125,14 +125,14 @@ class Person {
   }
 }
 
-// 2
+
 
 function getLength(value: string | number[]): number {
   return value.length;
 }
 
 
-// 1
+
 
 function formatValue(
   value: string | number | boolean
